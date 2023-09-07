@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Стили для элементов заказов */
+.list-group-item {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.list-group-item:hover {
+    transform: scale(1.02); /* Эффект увеличения при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-group > .list-group-item > a {
+    color: white;
+}
+
+/* Стили для разных статусов заказов */
+.status-created {
+    background-color: #ffc107;
+}
+.status-pending_confirmation {
+    background-color: #007bff;
+    color: #fff;
+}
+.status-confirmed {
+    background-color: #28a745;
+    color: #fff;
+}
+.status-completed {
+    background-color: #6c757d;
+    color: #fff;
+}
