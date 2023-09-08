@@ -2,9 +2,9 @@
 
 $config = [
     'host' => 'localhost',
-    'user' => 'a0844247_almazix',
-    'pass' => '3BPw9On4',
-    'name' => 'a0844247_new'
+    'user' => 'user',
+    'pass' => 'pass',
+    'name' => 'namedb'
 ];
 
 $conn = new mysqli($config['host'], $config['user'], $config['pass'], $config['name']);
